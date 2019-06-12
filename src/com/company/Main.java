@@ -95,6 +95,7 @@ public class Main {
         int[] arr = {1, 2, 3, 4, 5,6,7,8,9};
         Main m = new Main();
         long startTime = System.nanoTime();
+        //Para comprobar el tiempo de ejecucion intercambiar los metodos de bubble o merge sort y recibe el arreglo de tamaño n
         arr = m.mergeSort(vector3000);
         long endTime = System.nanoTime() - startTime;
 
@@ -143,7 +144,7 @@ public class Main {
 
         return c;
     }
-    
+
     public int [] mergeSort(int[] arr){
         // caso base
         if(arr.length == 1)
